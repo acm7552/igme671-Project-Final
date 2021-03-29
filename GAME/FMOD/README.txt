@@ -1,0 +1,1 @@
+This is solely for my benefit to see that the directory was set up correctly. I was not sure if these folders needed to be in place for Milestone 1.
