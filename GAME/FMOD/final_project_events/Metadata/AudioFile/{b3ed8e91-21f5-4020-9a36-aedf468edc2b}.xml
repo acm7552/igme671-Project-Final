@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{b3ed8e91-21f5-4020-9a36-aedf468edc2b}">
+		<property name="assetPath">
+			<value>Jawharp3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.0326077097505668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c0fe0e68-47a5-430c-8918-a2e9e152812d}</destination>
+		</relationship>
+	</object>
+</objects>
