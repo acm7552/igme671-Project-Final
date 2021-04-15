@@ -15,7 +15,7 @@ namespace Platformer.Gameplay
         {
             //if (player.audioSource && player.jumpAudio)
             //    player.audioSource.PlayOneShot(player.jumpAudio);
-            player.gameObject.GetComponent<FMODUnity.StudioEventEmitter>().Play(); // Jump Audio Event
+            player.gameObject.transform.Find("JumpTrigger").GetComponent<FMODUnity.StudioEventEmitter>().Play(); // Jump Audio Event
         }
     }
 }

@@ -19,6 +19,7 @@ namespace Platformer.Gameplay
         public override void Execute()
         {
             //AudioSource.PlayClipAtPoint(token.tokenCollectAudio, token.transform.position);
+            player.gameObject.transform.Find("TokenTrigger").GetComponent<FMODUnity.StudioEventEmitter>().Play(); // Collect token event
         }
     }
 }

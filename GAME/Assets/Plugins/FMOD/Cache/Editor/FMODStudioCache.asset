@@ -23,6 +23,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 300
+--- !u!114 &-828372700453953883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effect/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effect/Death
+  guid: e84e56703e9c5b438ab109a1fd835a2f
+  Banks:
+  - {fileID: 8519949916003871178}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3864
 --- !u!114 &-25986361905757537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,13 +88,38 @@ MonoBehaviour:
   - {fileID: -25986361905757537}
   - {fileID: 9111575433570343752}
   - {fileID: -4721831609940533752}
+  - {fileID: -828372700453953883}
+  - {fileID: 1491838599262333040}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8519949916003871178}
   StringsBanks:
   - {fileID: 8163911147406559445}
-  stringsBankWriteTime: 637534089225144731
+  stringsBankWriteTime: 637540352870070552
   cacheVersion: 6
+--- !u!114 &1491838599262333040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effect/Collectible
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effect/Collectible
+  guid: 2116319d61c76c43b85a6d90ffa6d233
+  Banks:
+  - {fileID: 8519949916003871178}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
 --- !u!114 &8163911147406559445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,11 +135,11 @@ MonoBehaviour:
   Path: FMOD/final_project_events/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637534089225144731
+  lastModified: 637540352870070552
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 844
+    Value: 922
   Exists: 1
 --- !u!114 &8519949916003871178
 MonoBehaviour:
@@ -108,7 +156,7 @@ MonoBehaviour:
   Path: FMOD/final_project_events/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637534089225064939
+  lastModified: 637540352870040638
   LoadResult: 0
   FileSizes: []
   Exists: 1
