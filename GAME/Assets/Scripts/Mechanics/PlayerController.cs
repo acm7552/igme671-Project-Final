@@ -69,6 +69,16 @@ namespace Platformer.Mechanics
             {
                 move.x = 0;
             }
+
+            if (IsGrounded && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+            {
+                gameObject.transform.Find("WalkTrigger").gameObject.SetActive(true);
+            }
+            else
+            {
+                gameObject.transform.Find("WalkTrigger").gameObject.SetActive(false);
+            }
+
             UpdateJumpState();
             base.Update();
         }

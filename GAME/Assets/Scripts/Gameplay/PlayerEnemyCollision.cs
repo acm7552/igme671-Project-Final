@@ -46,7 +46,17 @@ namespace Platformer.Gameplay
             }
             else
             {
-                Schedule<PlayerDeath>();
+
+
+                if (player.health.currentHP > 1)
+                {
+                    player.health.Decrement();
+                }
+                else {
+                    Schedule<PlayerDeath>();
+                }
+                 //Schedule<PlayerDeath>();
+                
             }
         }
     }
