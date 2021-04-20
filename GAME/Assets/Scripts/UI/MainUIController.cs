@@ -13,6 +13,8 @@ namespace Platformer.UI
 
         public void SetActivePanel(int index)
         {
+            gameObject.transform.Find("ButtonTrigger").GetComponent<FMODUnity.StudioEventEmitter>().Play(); //Test button trigger event
+
             for (var i = 0; i < panels.Length; i++)
             {
                 var active = i == index;

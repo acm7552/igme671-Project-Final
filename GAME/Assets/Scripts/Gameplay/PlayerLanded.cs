@@ -14,6 +14,7 @@ namespace Platformer.Gameplay
         public override void Execute()
         {
             //player.audioSource.PlayOneShot(player.landAudio);
+            player.gameObject.transform.Find("LandTrigger").GetComponent<FMODUnity.StudioEventEmitter>().Play(); // Land Event emitter
         }
     }
 }

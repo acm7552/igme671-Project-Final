@@ -20,10 +20,33 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4503316518420768919}
+  - {fileID: 2548351180872872061}
   MinDistance: 0
   MaxDistance: 0
   Length: 320
+--- !u!114 &-4694262154318679940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interface/ButtonHover
+  m_EditorClassIdentifier: 
+  Path: event:/Interface/ButtonHover
+  guid: 8cee28f12d5c5f4298a7a85b759e3f0e
+  Banks:
+  - {fileID: 8519949916003871178}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1031
 --- !u!114 &-4503316518420768919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,12 +154,16 @@ MonoBehaviour:
   - {fileID: -4721831609940533752}
   - {fileID: -828372700453953883}
   - {fileID: 1491838599262333040}
+  - {fileID: 3317955287328700090}
+  - {fileID: -4694262154318679940}
+  - {fileID: 5272029723988215157}
+  - {fileID: 7591705844418029954}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8519949916003871178}
   StringsBanks:
   - {fileID: 8163911147406559445}
-  stringsBankWriteTime: 637544587267187636
+  stringsBankWriteTime: 637544722509736136
   cacheVersion: 6
 --- !u!114 &1491838599262333040
 MonoBehaviour:
@@ -161,6 +188,115 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &1824255601320733407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &2548351180872872061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &3317955287328700090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effect/LandOnGround
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effect/LandOnGround
+  guid: bb399704abb6654d97fa256579838a8c
+  Banks:
+  - {fileID: 8519949916003871178}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 300
+--- !u!114 &5272029723988215157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effect/Hurt
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effect/Hurt
+  guid: dc3a7cfae50c9a45aa021046509fbe3d
+  Banks:
+  - {fileID: 8519949916003871178}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2498
+--- !u!114 &7591705844418029954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interface/MenuToggle
+  m_EditorClassIdentifier: 
+  Path: event:/Interface/MenuToggle
+  guid: ec5a2b30ef58db44995b05396dabc9f0
+  Banks:
+  - {fileID: 8519949916003871178}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1353
 --- !u!114 &8163911147406559445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,11 +312,11 @@ MonoBehaviour:
   Path: FMOD/final_project_events/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637544587267187636
+  lastModified: 637544722509736136
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1152
+    Value: 1354
   Exists: 1
 --- !u!114 &8519949916003871178
 MonoBehaviour:
@@ -197,7 +333,7 @@ MonoBehaviour:
   Path: FMOD/final_project_events/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637544587267137766
+  lastModified: 637544722509686260
   LoadResult: 0
   FileSizes: []
   Exists: 1

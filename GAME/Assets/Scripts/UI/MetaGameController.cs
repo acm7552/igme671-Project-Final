@@ -38,6 +38,7 @@ namespace Platformer.UI
         /// <param name="show"></param>
         public void ToggleMainMenu(bool show)
         {
+            gameController.gameObject.transform.Find("MenuTrigger").GetComponent<FMODUnity.StudioEventEmitter>().Play(); //Menu toggle event emitter
             if (this.showMainCanvas != show)
             {
                 _ToggleMainMenu(show);

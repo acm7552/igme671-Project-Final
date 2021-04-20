@@ -47,10 +47,11 @@ namespace Platformer.Gameplay
             else
             {
 
-
+                player.gameObject.transform.Find("HurtTrigger").GetComponent<FMODUnity.StudioEventEmitter>().Play(); // Hurt Event emitter
                 if (player.health.currentHP > 1)
                 {
                     player.health.Decrement();
+                   
                 }
                 else {
                     Schedule<PlayerDeath>();
