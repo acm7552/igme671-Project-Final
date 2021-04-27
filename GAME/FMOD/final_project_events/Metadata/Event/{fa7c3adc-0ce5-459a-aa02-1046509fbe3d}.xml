@@ -77,6 +77,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{46b7fb30-86a3-4c66-811a-eb6f135a1b40}">
+		<relationship name="modules">
+			<destination>{3dcd486c-c982-4295-875a-c9008798e534}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{bbb58153-9486-4e66-99d1-63f784adecd6}</destination>
 		</relationship>
@@ -85,6 +88,7 @@
 		<relationship name="modules">
 			<destination>{37a14e7a-b601-4c15-871a-9cb65c8968f4}</destination>
 			<destination>{f9213171-095f-45d5-8815-6185f23273ea}</destination>
+			<destination>{3dcd486c-c982-4295-875a-c9008798e534}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1bd14760-4bf7-4cb1-be11-d894be8a200b}">
@@ -106,7 +110,10 @@
 	<object class="MixerBusPanner" id="{76c62d04-0e5a-4041-9c6d-5d93f48136d1}" />
 	<object class="SingleSound" id="{37a14e7a-b601-4c15-871a-9cb65c8968f4}">
 		<property name="length">
-			<value>2.4980045351473921</value>
+			<value>1.9500000000000002</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.12547337183368146</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{79ac82d4-9afd-4fea-8a77-7a4574d884c9}</destination>
@@ -114,7 +121,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ee05d334-4dcc-487e-a749-5c437fa89eff}">
 		<property name="volume">
-			<value>2.5</value>
+			<value>1.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -134,7 +141,7 @@
 			<value>0.15000000000000002</value>
 		</property>
 		<property name="length">
-			<value>2.1179818594104307</value>
+			<value>1.8000000000000003</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{03602293-aee3-4a7f-afc7-777bfb2fe419}</destination>
@@ -142,7 +149,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e99063b1-8a65-4f22-9aad-a2c077dd7eee}">
 		<property name="volume">
-			<value>9</value>
+			<value>6.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -155,6 +162,14 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{1bd14760-4bf7-4cb1-be11-d894be8a200b}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3dcd486c-c982-4295-875a-c9008798e534}">
+		<property name="length">
+			<value>1.4518367346938776</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{6bfcf2ed-7887-4aa1-8bbe-3acc8c458dbf}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bbb58153-9486-4e66-99d1-63f784adecd6}">

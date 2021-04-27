@@ -50,6 +50,8 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+
+            
         }
 
         protected override void Update()
@@ -70,7 +72,13 @@ namespace Platformer.Mechanics
                 move.x = 0;
             }
 
-            if (IsGrounded && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+            
+
+
+            model.player.gameObject.transform.Find("WalkTrigger").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("WalkHealth", health.currentHP, true);
+            model.player.gameObject.transform.Find("MusicTrigger").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("MusicHealth", health.currentHP, false);
+            Debug.Log(health.currentHP);
+            if (model.player.controlEnabled && IsGrounded && ((move.x > 0.01f) || (move.x < -0.01f)))
             {
                 gameObject.transform.Find("WalkTrigger").gameObject.SetActive(true);
             }
@@ -78,7 +86,6 @@ namespace Platformer.Mechanics
             {
                 gameObject.transform.Find("WalkTrigger").gameObject.SetActive(false);
             }
-
             UpdateJumpState();
             base.Update();
         }
@@ -137,6 +144,7 @@ namespace Platformer.Mechanics
             animator.SetBool("grounded", IsGrounded);
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
+            
             targetVelocity = move * maxSpeed;
         }
 

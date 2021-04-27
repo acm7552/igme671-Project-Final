@@ -1,5 +1,189 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8408736907261006545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-8127695566118700651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/WalkHealth
+  m_EditorClassIdentifier: 
+  Name: WalkHealth
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-7644091180385511646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/MusicHealth
+  m_EditorClassIdentifier: 
+  Name: MusicHealth
+  Min: 0
+  Max: 3
+  Default: 2.25
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-7069305549214003126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/MusicHealth
+  m_EditorClassIdentifier: 
+  Name: MusicHealth
+  Min: 0
+  Max: 3
+  Default: 2.25
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6440563930828440800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/WalkHealth
+  m_EditorClassIdentifier: 
+  Name: WalkHealth
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-5990680149136366079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-5060021398939213113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music
+  guid: 087fff52f9aa824380d6323d7c91196b
+  Banks:
+  - {fileID: 8519949916003871178}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1306250924653922313}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 24000
+--- !u!114 &-4823259284060755206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LandOnEnemy/LandingHealth
+  m_EditorClassIdentifier: 
+  Name: LandingHealth
+  Min: 1
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4740709230539020385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LandOnEnemy/LandingHealth
+  m_EditorClassIdentifier: 
+  Name: LandingHealth
+  Min: 1
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-4721831609940533752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20,7 +204,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 2548351180872872061}
+  - {fileID: 8919929328169243822}
   MinDistance: 0
   MaxDistance: 0
   Length: 320
@@ -67,6 +251,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-1722079148398305667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LandOnEnemy/LandingHealth
+  m_EditorClassIdentifier: 
+  Name: LandingHealth
+  Min: 1
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-1306250924653922313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/MusicHealth
+  m_EditorClassIdentifier: 
+  Name: MusicHealth
+  Min: 0
+  Max: 3
+  Default: 2.25
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1231629776181436780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,6 +307,26 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-977409387499849904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LandOnEnemy/LandingHealth
+  m_EditorClassIdentifier: 
+  Name: LandingHealth
+  Min: 1
+  Max: 3
+  Default: 3
   ID:
     data1: 0
     data2: 0
@@ -110,6 +354,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3864
+--- !u!114 &-415567033209248955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LandOnEnemy/LandingHealth
+  m_EditorClassIdentifier: 
+  Name: LandingHealth
+  Min: 1
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-25986361905757537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +393,8 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -4823259284060755206}
   MinDistance: 0
   MaxDistance: 0
   Length: 2500
@@ -158,13 +423,75 @@ MonoBehaviour:
   - {fileID: -4694262154318679940}
   - {fileID: 5272029723988215157}
   - {fileID: 7591705844418029954}
+  - {fileID: 6756101225927430794}
+  - {fileID: -5060021398939213113}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8519949916003871178}
   StringsBanks:
   - {fileID: 8163911147406559445}
-  stringsBankWriteTime: 637544722509736136
+  stringsBankWriteTime: 637550891847128280
   cacheVersion: 6
+--- !u!114 &310949464477136083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/WalkHealth
+  m_EditorClassIdentifier: 
+  Name: WalkHealth
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &683268623280235659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/MusicHealth
+  m_EditorClassIdentifier: 
+  Name: MusicHealth
+  Min: 0
+  Max: 3
+  Default: 2.25
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &1389289559681996852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/WalkHealth
+  m_EditorClassIdentifier: 
+  Name: WalkHealth
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1491838599262333040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,6 +515,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &1779026346747992528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/MusicHealth
+  m_EditorClassIdentifier: 
+  Name: MusicHealth
+  Min: 0
+  Max: 3
+  Default: 2.25
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1824255601320733407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +574,47 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
+  Exists: 0
+--- !u!114 &2625968326874850713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
+--- !u!114 &2718771306567237854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LandOnEnemy/LandingHealth
+  m_EditorClassIdentifier: 
+  Name: LandingHealth
+  Min: 1
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &3317955287328700090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,6 +638,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 300
+--- !u!114 &4388007170841892274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &5272029723988215157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,7 +680,111 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2498
+  Length: 1950
+--- !u!114 &5319832498622842269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/WalkHealth
+  m_EditorClassIdentifier: 
+  Name: WalkHealth
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &6042111009708516351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &6259973482784513954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/WalkHealth
+  m_EditorClassIdentifier: 
+  Name: WalkHealth
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &6756101225927430794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/HealthAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/HealthAmbience
+  guid: 003d89923eeafb41a3d62867b077ef0a
+  Banks:
+  - {fileID: 8519949916003871178}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9157536666952483047}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &7511036359039217560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/MusicHealth
+  m_EditorClassIdentifier: 
+  Name: MusicHealth
+  Min: 0
+  Max: 3
+  Default: 2.25
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7591705844418029954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,6 +808,66 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1353
+--- !u!114 &7633679476580993571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/WalkHealth
+  m_EditorClassIdentifier: 
+  Name: WalkHealth
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7858700261758553371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LandOnEnemy/LandingHealth
+  m_EditorClassIdentifier: 
+  Name: LandingHealth
+  Min: 1
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &8031344845327551012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/MusicHealth
+  m_EditorClassIdentifier: 
+  Name: MusicHealth
+  Min: 0
+  Max: 3
+  Default: 2.25
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &8163911147406559445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,12 +883,32 @@ MonoBehaviour:
   Path: FMOD/final_project_events/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637544722509736136
+  lastModified: 637550891847128280
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1354
+    Value: 1550
   Exists: 1
+--- !u!114 &8228643925641996277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &8519949916003871178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,9 +924,29 @@ MonoBehaviour:
   Path: FMOD/final_project_events/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637544722509686260
+  lastModified: 637550891847098361
   LoadResult: 0
   FileSizes: []
+  Exists: 1
+--- !u!114 &8919929328169243822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/WalkHealth
+  m_EditorClassIdentifier: 
+  Name: WalkHealth
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &9111575433570343752
 MonoBehaviour:
@@ -360,3 +971,43 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1669
+--- !u!114 &9157536666952483047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HealthAmbience/MusicHealth
+  m_EditorClassIdentifier: 
+  Name: MusicHealth
+  Min: 0
+  Max: 3
+  Default: 2.25
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &9184607627424151827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LandOnEnemy/LandingHealth
+  m_EditorClassIdentifier: 
+  Name: LandingHealth
+  Min: 1
+  Max: 3
+  Default: 3
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0

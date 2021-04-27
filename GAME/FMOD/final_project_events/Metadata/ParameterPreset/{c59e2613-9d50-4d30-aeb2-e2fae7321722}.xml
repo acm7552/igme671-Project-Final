@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{c59e2613-9d50-4d30-aeb2-e2fae7321722}">
+		<property name="name">
+			<value>LandingHealth</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a8ac983f-e214-47c0-9a3c-09c85a8c55ab}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ed06be43-6865-4561-ae47-2c1be2bd8dad}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ed06be43-6865-4561-ae47-2c1be2bd8dad}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>3</value>
+		</property>
+	</object>
+</objects>
