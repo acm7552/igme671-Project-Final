@@ -20,6 +20,7 @@ namespace Platformer.Gameplay
         {
             //AudioSource.PlayClipAtPoint(token.tokenCollectAudio, token.transform.position);
             player.gameObject.transform.Find("TokenTrigger").GetComponent<FMODUnity.StudioEventEmitter>().Play(); // Collect token event
+            player.score++;
         }
     }
 }

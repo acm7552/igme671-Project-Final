@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Sfx</value>
 		</property>
+		<relationship name="automators">
+			<destination>{9d4534b8-9d6d-4c5f-9b6f-a2237b333717}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{d4e62484-3a94-4f2a-be94-2504af7367a8}</destination>
 		</relationship>
@@ -13,6 +16,11 @@
 		<relationship name="output">
 			<destination>{b1d58fbc-53b8-4a20-a740-978df43e193c}</destination>
 		</relationship>
+	</object>
+	<object class="Automator" id="{9d4534b8-9d6d-4c5f-9b6f-a2237b333717}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{d4e62484-3a94-4f2a-be94-2504af7367a8}">
 		<relationship name="effects">

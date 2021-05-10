@@ -43,6 +43,8 @@ namespace Platformer.Mechanics
 
         public Bounds Bounds => collider2d.bounds;
 
+        public int score = 0;
+
         void Awake()
         {
             health = GetComponent<Health>();
@@ -75,8 +77,9 @@ namespace Platformer.Mechanics
             
 
 
-            model.player.gameObject.transform.Find("WalkTrigger").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("WalkHealth", health.currentHP, true);
+            //model.player.gameObject.transform.Find("WalkTrigger").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("WalkHealth", health.currentHP, true);
             model.player.gameObject.transform.Find("MusicTrigger").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("MusicHealth", health.currentHP, false);
+            model.player.gameObject.transform.Find("MusicTrigger").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("Score", score, false);
             Debug.Log(health.currentHP);
             if (model.player.controlEnabled && IsGrounded && ((move.x > 0.01f) || (move.x < -0.01f)))
             {

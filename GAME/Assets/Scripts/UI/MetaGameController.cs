@@ -1,6 +1,8 @@
 using Platformer.Mechanics;
 using Platformer.UI;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 namespace Platformer.UI
 {
@@ -26,6 +28,7 @@ namespace Platformer.UI
         public GameController gameController;
 
         bool showMainCanvas = false;
+        public int paused = 0;
 
         void OnEnable()
         {
@@ -47,17 +50,24 @@ namespace Platformer.UI
 
         void _ToggleMainMenu(bool show)
         {
+
+            Bus sfxBus = FMODUnity.RuntimeManager.GetBus("bus:/Sfx");
+            Bus musicBus = FMODUnity.RuntimeManager.GetBus("bus:/Music");
             if (show)
             {
                 Time.timeScale = 0;
                 mainMenu.gameObject.SetActive(true);
                 foreach (var i in gamePlayCanvasii) i.gameObject.SetActive(false);
+                sfxBus.setPaused(true);
+                musicBus.setVolume(0.4f);
             }
             else
             {
                 Time.timeScale = 1;
                 mainMenu.gameObject.SetActive(false);
                 foreach (var i in gamePlayCanvasii) i.gameObject.SetActive(true);
+                sfxBus.setPaused(false);
+                musicBus.setVolume(1f);
             }
             this.showMainCanvas = show;
         }

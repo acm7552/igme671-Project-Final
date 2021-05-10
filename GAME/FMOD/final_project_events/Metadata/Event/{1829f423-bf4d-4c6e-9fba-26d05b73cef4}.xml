@@ -124,7 +124,7 @@
 	</object>
 	<object class="SingleSound" id="{c6247459-05a5-49fd-bb04-5c8035140ebf}">
 		<property name="length">
-			<value>1.6698866213151931</value>
+			<value>0.67988662131519273</value>
 		</property>
 		<relationship name="automators">
 			<destination>{0819aabb-43e3-4ed5-848c-f17b5fd06e97}</destination>
@@ -158,7 +158,7 @@
 	</object>
 	<object class="MultiSound" id="{adc3638c-ff52-44eb-9a38-7ae9120673c1}">
 		<property name="length">
-			<value>0.92000000000000004</value>
+			<value>0.72999999999999998</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{cb6dc64d-9085-4467-a1c0-60a72c5eb165}</destination>
